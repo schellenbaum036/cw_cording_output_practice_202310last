@@ -1,10 +1,32 @@
-#header{
+
+.nav-items{
+    width:80%;
+    margin: 27px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .menu{
+    width:450px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.mainvisual{
+    width:100%;
+    height:615px;
+    background: rgba(86, 82, 82, 0.7);
+    display: grid;
+    place-items: center;
+}
+
+.message{
+    display:none;
+}
+
+.temporary-message{
+    color: rgb(255,255,255);
+    font-size: 80px;
+    font-weight: 900;
 }

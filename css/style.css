@@ -16,20 +16,10 @@
 .mainvisual{
     width:100%;
     height:615px;
-    background: rgba(86, 82, 82, 0.7);
+    background:url(image/mainvislal2.jpg);
     display: grid;
     place-items: center;
 }
-
-/* .message{
-    display:none;
-} */
-
-/* .temporary-message{
-    color: rgb(255,255,255);
-    font-size: 80px;
-    font-weight: 900;
-} */
 
 .message{
     width: 50%;

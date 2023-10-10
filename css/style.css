@@ -15,12 +15,29 @@
 
 .mainvisual{
     width: 100%;
-    height: 615px;
+    height: 620px;
     background: url("../image/mainvisual2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
 }
 
-/* .message{
-    width: 50%;
-    height: 30%;
-    background: gray;
-} */
+.message{
+    width: 800px;
+    height: 160px;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    display: grid;
+    place-items: center;
+}
+
+.message h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.message p{
+    font-size: 32px;
+}

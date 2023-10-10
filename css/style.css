@@ -14,13 +14,13 @@
 }
 
 .mainvisual{
-    width: 100%;
-    width: auto;
-    background: url("image/mainvisual2");
+    width: 1400px;
+    height: 700px;
+    background: url("image/mainvisual2.jpg");
 }
 
-.message{
+/* .message{
     width: 50%;
     height: 30%;
     background: gray;
-}
+} */

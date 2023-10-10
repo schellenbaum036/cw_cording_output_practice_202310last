@@ -21,12 +21,18 @@
     place-items: center;
 }
 
-.message{
+/* .message{
     display:none;
-}
+} */
 
-.temporary-message{
+/* .temporary-message{
     color: rgb(255,255,255);
     font-size: 80px;
     font-weight: 900;
+} */
+
+.message{
+    width: 50%;
+    height: 30%;
+    background: gray;
 }

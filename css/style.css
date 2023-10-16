@@ -108,3 +108,31 @@
 .columns3 p{
     margin: 23px;
 }
+
+.customer-voice{
+    width: 100%;
+    height: auto;
+}
+
+.over-blue{
+    width: 100%;
+    height: 300px;
+    background-color: #4B69C1;
+}
+
+.under-red{
+    width: 100%;
+    height: 300px;
+    background-color: #DE5B83;
+}
+
+.contents img{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

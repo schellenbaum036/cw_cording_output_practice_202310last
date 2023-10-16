@@ -153,3 +153,44 @@
 .contents p{
     font-size: 14px;
 }
+
+.second-visual{
+    width: 100%;
+    height: 615px;
+    display: grid;
+    place-items: center;
+    background: url(../image/mainvisula3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.four-messages{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text{
+    width: 48%;
+    aspect-ratio: 380/200;
+    background-color: #E7E7E7;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.third,.fourth{
+    margin-top: 4%;
+}
+
+.text h3{
+    font-size: 28px;
+    margin: 30px;
+}
+
+.text p{
+    font-size: 24px;
+    margin: 0 35px;
+}

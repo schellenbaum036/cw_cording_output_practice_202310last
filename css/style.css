@@ -18,7 +18,7 @@
     color: #000000;
 }
 
-.mainvisual{
+#mainvisual{
     width: 100%;
     aspect-ratio: 1400/613;
     background: url("../image/mainvisual2.jpg");
@@ -47,7 +47,7 @@
     font-size: 32px;
 }
 
-.articles{
+#articles{
     width: 100%;
     height: auto;
     display: grid;
@@ -109,7 +109,7 @@
     margin: 23px;
 }
 
-.customer-voice{
+#customer-voice{
     width: 100%;
     height: auto;
 }
@@ -154,7 +154,7 @@
     font-size: 14px;
 }
 
-.second-visual{
+#second-visual{
     width: 100%;
     height: 615px;
     display: grid;
@@ -195,7 +195,7 @@
     margin: 0 35px;
 }
 
-.contact{
+#contact{
     width: 100%;
     height: 360px;
     background-color: #E7E7E7;
@@ -228,3 +228,44 @@
     font-weight: bold;
 }
 
+#profile{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.container{
+    width: 60%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    line-height: normal;
+    margin: auto;
+    align-items: center;
+}
+
+.campany-info{
+    width: 25%;
+    height: 30% auto;
+}
+
+.campany-info h3{
+    font-size: 16px;
+}
+
+.campany-info p{
+    font-size: 12px;
+}
+
+#footer{
+    width: 100%;
+    height: 72px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size:  14px;
+    display: grid;
+    place-items: center;
+    border-top: #FFFFFF;
+    border-style: solid;
+}

@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+#btn{
+    display: none;
+}
 
 .nav-items{
     width:80%;

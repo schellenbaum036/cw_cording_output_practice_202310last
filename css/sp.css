@@ -2,7 +2,7 @@
     .top-menu{
         display: none;
     }
-    .btn-trigger、.btn-trigger span{
+    .btn-trigger,.btn-trigger span{
         display: inline-block;
         transition: all .5s;
         box-sizing: border-box;

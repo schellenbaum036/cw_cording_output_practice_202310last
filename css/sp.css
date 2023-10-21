@@ -2,4 +2,7 @@
     .top-menu{
         display: none;
     }
+    #btn{
+        display: block;
+    }
 }

@@ -17,4 +17,34 @@
         background-color: #000000;
     }
 
+    .message{
+        width: 90%;
+        aspect-ratio: 700/115;
+        background-color: #FFFFFF;
+        opacity: 0.8;
+        display: grid;
+        place-items: center;
+    }
+
+    #mainvisual{
+        width: 100%;
+        aspect-ratio: 1400/613;
+        background: url("../image/mainvisual2s.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: grid;
+        place-items: center;
+    }
+    
+
+    .message h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .message p{
+        font-size: 18px;
+    }
+
 }

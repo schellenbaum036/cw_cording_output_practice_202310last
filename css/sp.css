@@ -21,7 +21,7 @@
     #mainvisual{
         width: 100%;
         aspect-ratio: 1400/613;
-        background: url("../image/mainvisual2.jpg");
+        background: url("../image/mainvisual2s.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -30,8 +30,8 @@
     }
 
     .message{
-        width: 60%;
-        aspect-ratio: 800/160;
+        width: 90%;
+        aspect-ratio: 700/115;
         background-color: #FFFFFF;
         opacity: 0.8;
         display: grid;
@@ -39,12 +39,12 @@
     }
 
     .message h2{
-        font-size: 40px;
+        font-size: 20px;
         font-weight: bold;
     }
 
     .message p{
-        font-size: 32px;
+        font-size: 18px;
     }
     
     #articles{

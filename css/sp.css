@@ -168,5 +168,83 @@
         text-align: center;
     }
 
+    #second-visual{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 760/520;
+        display: grid;
+        place-items: center;
+        background: url(../image/mainvisula3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .four-messages{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .text{
+        width: 48%;
+        height: 48%;
+        background-color: #E7E7E7;
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+        line-height: 24px;
+    }
+    
+    .third,.fourth{
+        margin-top: 4%;
+    }
+    
+    .text h3{
+        font-size: 18px;
+    }
+    
+    .text p{
+        font-size: 14px;
+        margin-bottom: 4%;
+    }
+    
+    #contact{
+        width: 100%;
+        height: 320px;
+        background-color: #E7E7E7;
+        display: grid;
+        place-items: center;
+    }
+    
+    .information{
+        width: 90%;
+    }
+    
+    .tel{
+        width: 100%;
+        font-size: 20px;
+        line-height: normal;
+        margin-bottom: 60px;
+    }
+    
+    .btn{
+        width: 100%;
+        aspect-ratio: 8/1;
+        border-style: none;
+        border-radius: 10px;
+        color: #FFFFFF;
+        background-color: #DE5B83;
+    }
+    
+    .btn a{
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    
+    
 
 }

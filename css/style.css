@@ -242,17 +242,18 @@
 
 .container{
     width: 60%;
-    height: 220px;
+    height: auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     line-height: normal;
     margin: auto;
     align-items: center;
 }
 
 .campany-info{
-    width: 25%;
-    height: 30% auto;
+    width: 50%;
+    height: 30%;
 }
 
 .campany-info h3{

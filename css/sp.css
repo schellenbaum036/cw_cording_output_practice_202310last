@@ -57,22 +57,20 @@
     .main-contents h2{
         font-size: 20px;
         text-align: center;
-        margin-bottom: 62px;
+        margin-bottom: 20px;
     }
 
     .main-contents{
         width: 100%;
         height: auto;
-        /* margin-top:62px;
-        margin-bottom: 74px;
-        margin-left: auto;
-        margin-right: auto; */
+        margin: 50px auto;
     }
 
     .columns3{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        gap: 20px;
     }
 
     .columns3 article{
@@ -100,14 +98,14 @@
 
 
     .columns3 h3{
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
         margin: 30px auto;
 
     }
 
     .columns3 p{
-        margin: 23px;
+        margin: 14px;
     }
 
     #customer-voice{
@@ -138,7 +136,7 @@
     }
 
     .over-blue .contents{
-        width: 60%;
+        width: 72%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -148,7 +146,7 @@
     }
 
     .under-red .contents{
-        width: 60%;
+        width: 72%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -159,11 +157,15 @@
 
     .contents h3{
         font-size: 28px;
-        margin-bottom: 20px;
     }
 
     .contents p{
         font-size: 14px;
+        margin: 36px auto;
+    }
+
+    .contents .voice{
+        text-align: center;
     }
 
 

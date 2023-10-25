@@ -165,7 +165,8 @@
 
 #second-visual{
     width: 100%;
-    height: 615px;
+    
+    aspect-ratio: 1400/615;
     display: grid;
     place-items: center;
     background: url(../image/mainvisual3.jpg);

@@ -170,8 +170,7 @@
 
     #second-visual{
         width: 100%;
-        height: auto;
-        aspect-ratio: 760/520;
+        height: auto;     
         display: grid;
         place-items: center;
         background: url(../image/mainvisual3s.jpg);
@@ -181,8 +180,8 @@
     }
     
     .four-messages{
-        width: 80%;
-        height: auto;
+        width: 90%;
+        height: 90%;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -192,14 +191,11 @@
         width: 48%;
         height: 48%;
         background-color: #E7E7E7;
-        border-radius: 10px;
-        display: grid;
-        place-items: center;
-        line-height: 1.5em;
+        border-radius: 10px;    
     }
     
     .third,.fourth{
-        margin-top: 4%;
+        margin-top: 20px;
     }
     
     .text h3{
@@ -208,7 +204,7 @@
     
     .text p{
         font-size: 14px;
-        margin-bottom: 4%;
+        margin-bottom: 20px;
     }
     
     #contact{
@@ -276,10 +272,12 @@
     
     .campany-info h3{
         font-size: 16px;
+        line-height: 1.5em;
     }
     
     .campany-info p{
         font-size: 12px;
+        line-height: 1.5em;
     }
 
     #footer{

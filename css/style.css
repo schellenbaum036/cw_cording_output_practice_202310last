@@ -243,6 +243,7 @@
     height: auto;
     background-color: #000000;
     color: #FFFFFF;
+    padding: 30px;
 }
 
 .container{
@@ -250,7 +251,7 @@
     height: auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
     line-height: normal;
     margin: auto;
     align-items: center;

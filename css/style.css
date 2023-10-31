@@ -35,7 +35,7 @@
 }
 
 .message{
-    width: 60%;
+    width: 800px;
     aspect-ratio: 800/160;
     background-color: #FFFFFF;
     opacity: 0.8;
@@ -196,12 +196,12 @@
 }
 
 .text h3{
-    font-size: 28px;
+    font-size: 4vmin;
     margin: 30px;
 }
 
 .text p{
-    font-size: 24px;
+    font-size: 2vmin;
     margin: 0 35px;
 }
 
